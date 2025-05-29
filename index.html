@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVLD Research Project 24-25J-150</title>
+    <meta name="description"
+        content="Research project developing a mobile application to enhance skills for children with Non-Verbal Learning Disorder (NVLD).">
+    <meta name="keywords"
+        content="NVLD, Non-Verbal Learning Disorder, mobile application, educational technology, research project">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="nav-icon">🧠</span>
+                <a href="#home" class="logo" aria-label="Home">Magic Mind</a><span></span><span></span><span></span>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#domain" class="nav-link"><i class="fas fa-book"></i> Domain</a></li>
+                <li><a href="#milestones" class="nav-link"><i class="fas fa-tasks"></i> Milestones</a></li>
+                <li><a href="#documents" class="nav-link"><i class="fas fa-file-alt"></i> Documents</a></li>
+                <li><a href="#team" class="nav-link"><i class="fas fa-users"></i> Team</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="section home-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Mobile Application to Enhance Skills for Children with Non-Verbal Learning
+                    Disorder</h1>
+                <p class="hero-subtitle">Project Code: 24-25J-150</p>
+                <div class="hero-description">
+                    <div class="purpose-statement">
+                        <h2>Research Purpose</h2>
+                        <p>This website serves as a comprehensive platform for documenting our research on Non-Verbal
+                            Learning Disorder (NVLD). We aim to:</p>
+                        <ul>
+                            <li>Document our research journey and findings</li>
+                            <li>Share project milestones and achievements</li>
+                            <li>Engage with stakeholders and the academic community</li>
+                            <li>Provide accessible resources for understanding NVLD</li>
+                        </ul>
+                    </div>
+                    <div class="quick-links">
+                        <a href="#domain" class="quick-link"><i class="fas fa-book"></i> Domain Overview</a>
+                        <a href="#milestones" class="quick-link"><i class="fas fa-tasks"></i> Project Milestones</a>
+                        <a href="#documents" class="quick-link"><i class="fas fa-file-alt"></i> Research Documents</a>
+                        <a href="#team" class="quick-link"><i class="fas fa-users"></i> Our Team</a>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#documents" class="btn btn-primary" aria-label="View project documents">View Documents</a>
+                    <a href="#team" class="btn btn-secondary" aria-label="Contact research team">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="domain" class="section domain-section">
+        <div class="container">
+            <h2 class="section-title">Domain Overview</h2>
+            <div class="domain-grid">
+                <div class="domain-card">
+                    <div class="domain-icon"><i class="fas fa-book"></i></div>
+                    <h3>Literature Survey</h3>
+                    <p>Comprehensive review of existing research on NVLD, identifying challenges and opportunities for
+                        technological interventions.</p>
+                    <a href="#" class="domain-link"
+                        onclick="showModal('Literature Survey', `Children with NVLD (Nonverbal Learning Disability) exhibit strong verbal skills but struggle significantly with visual-spatial reasoning, motor coordination, and interpreting non-verbal cues. This impacts their academic and daily life, especially in tasks involving mathematics, science, or navigation. Traditional education systems often focus on verbal skill development, leaving a gap in support for these children. Literature highlights the potential of adaptive learning, gamification, and AI-driven interventions to personalize learning and improve cognitive outcomes. Research emphasizes that children with NVLD benefit significantly from real-time feedback, pattern recognition exercises, and dynamic task adjustments tailored to their performance.`);">
+                        Learn
+                        More</a>
+                </div>
+                <div class="domain-card">
+                    <div class="domain-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Research Gap</h3>
+                    <p>Analysis of limitations in current NVLD support systems and opportunities for our mobile
+                        application.</p>
+                    <a href="#" class="domain-link"
+                        onclick="showModal('Research Gap', `Despite growing awareness of NVLD, most current support tools and educational methods lack personalization, interactivity, and adaptability. Therapies like speech or occupational therapy are static and don't provide real-time feedback. Existing apps either do not address NVLD specifically or lack features like gamification, AI-driven customization, or progress tracking. There's a significant gap in tools that adjust learning paths dynamically based on user input. The proposed solution addresses this gap through AI/ML integration, adaptive difficulty settings, and an engaging mobile interface tailored for children with NVLD.`);">
+                        Learn
+                        More</a>
+                </div>
+                <div class="domain-card">
+                    <div class="domain-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>Research Problem</h3>
+                    <p>Definition of challenges faced by children with NVLD and how our solution addresses these needs.
+                    </p>
+                    <a href="#" class="domain-link"
+                        onclick="showModal('Research Problem', `Children with NVLD struggle with tasks requiring spatial awareness, pattern matching, and social interaction despite having high verbal ability. Current systems fail to deliver individualized interventions or real-time support, which are crucial for long-term cognitive development. As a result, these children often fall behind academically and socially. The problem is further exacerbated by the lack of accessible, engaging, and child-friendly tools that can adapt to their learning curve. Our research focuses on addressing this problem through a mobile application that uses AI/ML to provide dynamic learning environments, enhance visual-spatial skills, and deliver interactive feedback.`);">Learn
+                        More</a>
+                </div>
+                <div class="domain-card">
+                    <div class="domain-icon"><i class="fas fa-tasks"></i></div>
+                    <h3>Objectives</h3>
+                    <p>Specific goals for developing and evaluating our mobile application for NVLD support.</p>
+                    <a href="#" class="domain-link"
+                        onclick="showModal('Objectives', `The primary objective is to enhance visual-spatial and cognitive development in children with NVLD using a mobile app powered by AI and machine learning. Specific goals include:\n\n1. Provide adaptive learning paths that adjust task difficulty based on the child's performance.\n2. Offer interactive tasks such as pattern recognition and vocabulary games to build critical thinking skills.\n3. Integrate real-time feedback mechanisms to correct mistakes and reinforce learning.\n4. Ensure a child-friendly and motivating UI with gamification elements.\n5. Use pre- and post-assessment tools to evaluate the app’s effectiveness in improving cognitive and social capabilities.`);">Learn
+                        More</a>
+                </div>
+                <div class="domain-card">
+                    <div class="domain-icon"><i class="fas fa-flask"></i></div>
+                    <h3>Methodology</h3>
+                    <p>Detailed approach to developing and testing the application, including user research and
+                        evaluation methods.</p>
+                    <a href="#" class="domain-link"
+                        onclick="showModal('Methodology', `The mobile application was developed using the Flutter framework for cross-platform compatibility. The frontend features a simple, interactive UI with gamified modules, real-time feedback, and dynamic task presentation. The backend is built using FastAPI and MongoDB to manage user data and track progress. Several AI/ML algorithms were implemented:\n\n1. Dynamic Difficulty Adjustment (DDA) – Modifies task complexity based on performance.\n2. Object Detection – Helps with spatial reasoning by analyzing image relationships.\n3. Random Forest Classifier – Tracks user progression and adjusts learning paths.\n\nThese algorithms are supported by robust data preprocessing and training techniques that improve performance prediction. The app is tested on real users with metrics including accuracy, engagement, and retention.`);">Learn
+                        More</a>
+                </div>
+                <div class="domain-card">
+                    <div class="domain-icon"><i class="fas fa-microchip"></i></div>
+                    <h3>Technology</h3>
+                    <p>Overview of the technical stack used in developing the mobile application.</p>
+                    <a href="#" class="domain-link"
+                        onclick="showModal('Technology', `The technical backbone of the mobile application includes:\n\n- **Frontend**: Flutter – Ensures the app runs smoothly on both Android and iOS devices.\n- **Backend**: FastAPI with MongoDB – Manages data flow and user sessions.\n- **AI/ML Models**:\n   - Dynamic Difficulty Adjustment Algorithm for balancing challenge.\n   - Random Forest Classifier for tracking learning levels.\n   - TensorFlow Lite-based Object Detection for spatial tasks.\n\nKey features also include:\n- Real-time feedback systems to correct errors instantly.\n- Gamified interface with rewards and motivation systems.\n- AI-powered personalized learning modules.\n\nAll components are designed for scalability, performance, and child-centric usability.`);">Learn
+                        More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Component -->
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoModalLabel">Detail</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalContent">
+                    <!-- Content inserted dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript to Control Modal -->
+    <script>
+        function showModal(title, content) {
+            document.getElementById('infoModalLabel').innerText = title;
+            document.getElementById('modalContent').innerText = content;
+            const modal = new bootstrap.Modal(document.getElementById('infoModal'));
+            modal.show();
+        }
+    </script>
+
+    <section id="milestones" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title">Snap from Field Visits</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <a href="assets/Picture7.png" class="gallery-link" target="_blank">
+                        <img src="assets/Picture7.png" alt="Field Visit Picture 7" class="gallery-image" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Field Visit</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="assets/Picture8.png" class="gallery-link" target="_blank">
+                        <img src="assets/Picture8.png" alt="Field Visit Picture 8" class="gallery-image" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Field Visit</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="section demo-section">
+        <div class="container">
+            <h2 class="section-title">Progress Presentation Demos</h2>
+            <p class="section-subtitle">Watch our team members demonstrate key features and progress of our mobile
+                application for children with Non-Verbal Learning Disorder.</p>
+            <div class="demo-grid">
+                <div class="team-card">
+                    <div class="demo-preview">
+                        <video controls class="demo-video" loading="lazy">
+                            <source
+                                src="24-25J-150-Students/24-25J-150-Students/2. Progress Presentation - 1/Demo/IT21181474_PP1_Demo.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="demo-content">
+                        <h3 class="demo-title">Hettiarachchi H.K.Y.K.</h3>
+                        <p class="demo-description">Demo: IT21181474</p>
+                    </div>
+                </div>
+                <div class="demo-card">
+                    <div class="demo-preview">
+                        <video controls class="demo-video" loading="lazy">
+                            <source
+                                src="24-25J-150-Students/24-25J-150-Students/2. Progress Presentation - 1/Demo/IT21181788_PP1_Demo.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="demo-content">
+                        <h3 class="demo-title">Madanayake P.C.S.</h3>
+                        <p class="demo-description">Demo: IT21181788</p>
+                    </div>
+                </div>
+                <div class="demo-card">
+                    <div class="demo-preview">
+                        <video controls class="demo-video" loading="lazy">
+                            <source
+                                src="24-25J-150-Students/24-25J-150-Students/2. Progress Presentation - 1/Demo/IT21175466_Puzzle_PP1_Demo.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="demo-content">
+                        <h3 class="demo-title">Harshana W.C.</h3>
+                        <p class="demo-description">Demo: IT21175466</p>
+                    </div>
+                </div>
+                <div class="demo-card">
+                    <div class="demo-preview">
+                        <video controls class="demo-video" loading="lazy">
+                            <source
+                                src="24-25J-150-Students/24-25J-150-Students/2. Progress Presentation - 1/Demo/IT21207136_PP1_Demo.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="demo-content">
+                        <h3 class="demo-title">Mendis T.S.P.</h3>
+                        <p class="demo-description">Demo: IT21207136</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="documents" class="section document-section">
+        <div class="container">
+            <h2 class="section-title">Project Proposal</h2>
+            <div class="document-grid">
+                <div class="document-card">
+                    <div class="document-preview" id="proposal-preview">
+                        <div class="pdf-placeholder">
+                            <i class="fas fa-file-pdf"></i>
+                            <p>Click to preview document</p>
+                        </div>
+                        <iframe class="pdf-viewer" style="display: none;" frameborder="0"></iframe>
+                    </div>
+                    <div class="document-content">
+                        <h3>Project Proposal Document</h3>
+                        <p>Abstract: Initial project proposal outlining the research objectives, methodology, and
+                            expected outcomes for the NVLD research project.</p>
+                        <div class="document-meta">
+                            <span class="document-date">Date: March 15, 2024</span>
+                            <span class="document-size">Size: 715 KB</span>
+                        </div>
+                        <div class="document-details">
+                            <h4>Key Components</h4>
+                            <ul class="content-list">
+                                <li>Research Objectives: Understanding NVLD and its impact</li>
+                                <li>Methodology: Development of technological interventions</li>
+                                <li>Expected Outcomes: Enhanced learning support tools</li>
+                                <li>Timeline: Project milestones and deliverables</li>
+                                <li>Resources: Technical and human requirements</li>
+                            </ul>
+                        </div>
+                        <div class="document-actions">
+                            <button class="btn btn-primary preview-btn"
+                                data-pdf="24-25J-150-Students/24-25J-150-Students/1. Project Proposal/Individual Reports/24-25J-150_IT21181474.pdf"
+                                aria-label="Preview project proposal">Preview</button>
+                            <a href="24-25J-150-Students/24-25J-150-Students/1. Project Proposal/Individual Reports/24-25J-150_IT21181474.pdf"
+                                class="btn btn-secondary" download aria-label="Download project proposal"><i
+                                    class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="presentation" class="section document-section">
+        <div class="container">
+            <h2 class="section-title">Project Presentation</h2>
+            <div class="document-grid">
+                <div class="document-card">
+                    <div class="document-preview" id="presentation-preview">
+                        <div class="pdf-placeholder">
+                            <i class="fas fa-file-powerpoint"></i>
+                            <div class="preview-message">
+                                <p>PowerPoint files cannot be previewed directly in the browser. Please download to
+                                    view.</p>
+                                <button class="btn btn-secondary download-preview-btn"
+                                    aria-label="Download project presentation"><i class="fas fa-download"></i> Download
+                                    to View</button>
+                            </div>
+                        </div>
+                        <iframe class="pdf-viewer" style="display: none;" frameborder="0"></iframe>
+                    </div>
+                    <div class="document-content">
+                        <h3>Project Presentation Slides</h3>
+                        <p>Abstract: Comprehensive presentation detailing the project's progress, methodology, findings,
+                            and future directions in addressing NVLD.</p>
+                        <div class="document-meta">
+                            <span class="document-date">Date: March 15, 2024</span>
+                            <span class="document-size">Size: 4.6 MB</span>
+                        </div>
+                        <div class="document-details">
+                            <h4>Presentation Contents</h4>
+                            <ul class="content-list">
+                                <li>Introduction to NVLD and Project Background</li>
+                                <li>Research Methodology and Approach</li>
+                                <li>Development of Technological Solutions</li>
+                                <li>Implementation and Testing Results</li>
+                                <li>Future Work and Recommendations</li>
+                            </ul>
+                        </div>
+                        <div class="document-actions">
+                            <button class="btn btn-primary preview-btn"
+                                data-pdf="24-25J-150-Students/24-25J-150-Students/1. Project Proposal/Presentation/24-25J-150 Slides.pptx"
+                                aria-label="Preview project presentation">Preview</button>
+                            <a href="24-25J-150-Students/24-25J-150-Students/1. Project Proposal/Presentation/24-25J-150 Slides.pptx"
+                                class="btn btn-secondary" download aria-label="Download project presentation"><i
+                                    class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="section document-section">
+        <div class="container">
+            <h2 class="section-title">Research Paper</h2>
+            <div class="document-grid">
+                <div class="document-card">
+                    <div class="document-preview" id="research-preview">
+                        <div class="pdf-placeholder">
+                            <i class="fas fa-file-pdf"></i>
+                            <p>Click to preview document</p>
+                        </div>
+                        <iframe class="pdf-viewer" style="display: none;" frameborder="0"></iframe>
+                    </div>
+                    <div class="document-content">
+                        <h3>Research Paper</h3>
+                        <p>Abstract: Comprehensive research paper documenting our study on NVLD, including methodology,
+                            findings, and implications for technological interventions.</p>
+                        <div class="document-meta">
+                            <span class="document-date">Date: March 15, 2024</span>
+                            <span class="document-size">Size: 245 KB</span>
+                        </div>
+                        <div class="document-details">
+                            <h4>Research Components</h4>
+                            <ul class="content-list">
+                                <li>Literature Review: Current understanding of NVLD</li>
+                                <li>Methodology: Development and testing approach</li>
+                                <li>Data Analysis: Evaluation of solutions</li>
+                                <li>Findings: Impact and effectiveness</li>
+                                <li>Discussion: Implications and future directions</li>
+                            </ul>
+                        </div>
+                        <div class="document-actions">
+                            <button class="btn btn-primary preview-btn"
+                                data-pdf="24-25J-150-Students/24-25J-150-Students/4. Research Paper/24-25J-150-Research-Paper.pdf"
+                                aria-label="Preview research paper">Preview</button>
+                            <a href="24-25J-150-Students/24-25J-150-Students/4. Research Paper/24-25J-150-Research-Paper.pdf"
+                                class="btn btn-secondary" download aria-label="Download research paper"><i
+                                    class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="report" class="section document-section">
+        <div class="container">
+            <h2 class="section-title">Final Report</h2>
+            <div class="document-grid">
+                <div class="document-card">
+                    <div class="document-preview" id="group-report-preview">
+                        <div class="pdf-placeholder">
+                            <i class="fas fa-file-pdf"></i>
+                            <p>Click to preview document</p>
+                        </div>
+                        <iframe class="pdf-viewer" style="display: none;" frameborder="0"></iframe>
+                    </div>
+                    <div class="document-content">
+                        <h3>Group Final Report</h3>
+                        <p>Abstract: Comprehensive final report documenting the NVLD research project, from initial
+                            proposal to final implementation, including findings and recommendations.</p>
+                        <div class="document-meta">
+                            <span class="document-date">Date: March 15, 2024</span>
+                            <span class="document-size">Size: 4.7 MB</span>
+                        </div>
+                        <div class="document-details">
+                            <h4>Report Contents</h4>
+                            <ul class="content-list">
+                                <li>Executive Summary: Project overview</li>
+                                <li>Background: NVLD research context</li>
+                                <li>Methodology: Development approach</li>
+                                <li>Results: Impact of solutions</li>
+                                <li>Discussion: Challenges and lessons</li>
+                                <li>Recommendations: Future applications</li>
+                            </ul>
+                        </div>
+                        <div class="document-actions">
+                            <button class="btn btn-primary preview-btn"
+                                data-pdf="24-25J-150-Students/24-25J-150-Students/5. Final Report & Presentation/Final Reports/24-25J-150_Final_Report.pdf"
+                                aria-label="Preview group final report">Preview</button>
+                            <a href="24-25J-150-Students/24-25J-150-Students/5. Final Report & Presentation/Final Reports/24-25J-150_Final_Report.pdf"
+                                class="btn btn-secondary" download aria-label="Download group final report"><i
+                                    class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="document-card">
+                    <div class="document-preview" id="individual-report-preview">
+                        <div class="pdf-placeholder">
+                            <i class="fas fa-file-pdf"></i>
+                            <p>Click to preview document</p>
+                        </div>
+                        <iframe class="pdf-viewer" style="display: none;" frameborder="0"></iframe>
+                    </div>
+                    <div class="document-content">
+                        <h3>Individual Final Reports</h3>
+                        <p>Abstract: Individual reports from team members detailing their contributions and findings.
+                        </p>
+                        <div class="document-meta">
+                            <span class="document-date">Date: March 15, 2024</span>
+                        </div>
+                        <div class="document-details">
+                            <h4>Available Reports</h4>
+                            <ul class="content-list">
+                                <li><a href="24-25J-150-Students/24-25J-150-Students/5. Final Report & Presentation/Final Reports/IT21181474_Final_Report.pdf"
+                                        class="related-link" download>IT21181474</a></li>
+                                <li><a href="24-25J-150-Students/24-25J-150-Students/5. Final Report & Presentation/Final Reports/IT21181788_Final_Report.pdf"
+                                        class="related-link" download>IT21181788</a></li>
+                                <li><a href="24-25J-150-Students/24-25J-150-Students/5. Final Report & Presentation/Final Reports/IT21175466_Final_Report.pdf"
+                                        class="related-link" download>IT21175466</a></li>
+                                <li><a href="24-25J-150-Students/24-25J-150-Students/5. Final Report & Presentation/Final Reports/IT21207136_Final_Report.pdf"
+                                        class="related-link" download>IT21207136</a></li>
+                            </ul>
+                        </div>
+                        <div class="document-actions">
+                            <button class="btn btn-primary preview-btn"
+                                data-pdf="24-25J-150-Students/24-25J-150-Students/5. Final Report & Presentation/Final Reports/IT21181474_Final_Report.pdf"
+                                aria-label="Preview individual reports">Preview</button>
+                            <a href="24-25J-150-Students/24-25J-150-Students/5. Final Report & Presentation/Final Reports/IT21181474_Final_Report.pdf"
+                                class="btn btn-secondary" download aria-label="Download individual reports"><i
+                                    class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="logbook" class="section document-section">
+        <div class="container">
+            <h2 class="section-title">Logbook</h2>
+            <div class="document-grid">
+                <div class="document-card">
+                    <div class="document-preview" id="logbook-preview">
+                        <div class="pdf-placeholder">
+                            <i class="fas fa-book"></i>
+                            <p>Click to view logbook</p>
+                        </div>
+                        <iframe class="pdf-viewer" style="display: none;" frameborder="0"></iframe>
+                    </div>
+                    <div class="document-content">
+                        <h3>Project Logbook</h3>
+                        <p>Abstract: A detailed record of daily progress, challenges, and solutions throughout the
+                            project.</p>
+                        <div class="document-meta">
+                            <span class="document-date">Date: March 15, 2024</span>
+                            <span class="document-size">Size: Various</span>
+                        </div>
+                        <div class="document-actions">
+                            <a href="24-25J-150-Students/24-25J-150-Students/8. Log Book/GitLab ScreenShots"
+                                class="btn btn-primary" aria-label="View project logbook"><i
+                                    class="fas fa-folder-open"></i> View Logbook</a>
+                            <a href="24-25J-150-Students/24-25J-150-Students/8. Log Book/GitLab ScreenShots"
+                                class="btn btn-secondary" download aria-label="Download project logbook"><i
+                                    class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Team Members</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="assets/Harshana W.C..png" alt="Photo of Harshana W.C., Team Lead" loading="lazy">
+                    </div>
+                    <div class="member-info">
+                        <h3>Harshana W.C.</h3>
+                        <p class="member-role">Team Lead</p>
+                        <p class="member-id">IT21175466</p>
+                        <a href="mailto:it21175466@my.sliit.lk" class="contact-link"
+                            aria-label="Contact Harshana W.C."><i class="fas fa-envelope"></i> Contact</a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="assets/Hettiarachchi H.K.Y.K.png" alt="Photo of Hettiarachchi H.K.Y.K., Team Member"
+                            loading="lazy">
+                    </div>
+                    <div class="member-info">
+                        <h3>Hettiarachchi H.K.Y.K.</h3>
+                        <p class="member-role">Team Member</p>
+                        <p class="member-id">IT21181474</p>
+                        <a href="mailto:it21181474@my.sliit.lk" class="contact-link"
+                            aria-label="Contact Hettiarachchi H.K.Y.K."><i class="fas fa-envelope"></i> Contact</a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="assets/Madanayake P.C.S..png" alt="Photo of Madanayake P.C.S., Team Member"
+                            loading="lazy">
+                    </div>
+                    <div class="member-info">
+                        <h3>Madanayake P.C.S.</h3>
+                        <p class="member-role">Team Member</p>
+                        <p class="member-id">IT21181788</p>
+                        <a href="mailto:it21181788@my.sliit.lk" class="contact-link"
+                            aria-label="Contact Madanayake P.C.S."><i class="fas fa-envelope"></i> Contact</a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="assets/Mendis T.S.P..png" alt="Photo of Mendis T.S.P., Team Member" loading="lazy">
+                    </div>
+                    <div class="member-info">
+                        <h3>Mendis T.S.P.</h3>
+                        <p class="member-role">Team Member</p>
+                        <p class="member-id">IT21207136</p>
+                        <a href="mailto:it21207136@my.sliit.lk" class="contact-link"
+                            aria-label="Contact Mendis T.S.P."><i class="fas fa-envelope"></i> Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="supervisor-info">
+                <h2 class="section-title">Project Supervisors</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p>For inquiries about the research project, please contact our supervisors:</p>
+                        <div class="supervisor-grid">
+                            <div class="supervisor-card">
+                                <div class="supervisor-details">
+                                    <h3>Mrs. Lokesha Weerasinghe</h3>
+                                    <p class="supervisor-role">Supervisor</p>
+                                    <a href="mailto:lokesha.w@sliit.lk" class="contact-link"
+                                        aria-label="Contact Supervisor Lokesha Weerasinghe"><i
+                                            class="fas fa-envelope"></i> Contact Supervisor</a>
+                                </div>
+                            </div>
+                            <div class="supervisor-card">
+                                <div class="supervisor-details">
+                                    <h3>Ms. Malithi Nawarathne</h3>
+                                    <p class="supervisor-role">Co-supervisor</p>
+                                    <a href="mailto:malithi.n@sliit.lk" class="contact-link"
+                                        aria-label="Contact Co-supervisor Malithi Nawarathne"><i
+                                            class="fas fa-envelope"></i> Contact Co-supervisor</a>
+                                </div>
+                            </div>
+                            <div class="supervisor-card">
+                                <div class="supervisor-details">
+                                    <h3>Ms. Shalindi</h3>
+                                    <p class="supervisor-role">External Supervisor</p>
+                                    <a href="mailto:shalindi.pandithakoralage@gmail.com" class="contact-link"
+                                        aria-label="Contact External Supervisor Shalindi"><i
+                                            class="fas fa-envelope"></i> Contact External Supervisor</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Research Project 24-25J-150. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home" class="footer-link" aria-label="Go to Home">Home</a>
+                <a href="#documents" class="footer-link" aria-label="Go to Documents">Documents</a>
+                <a href="#team" class="footer-link" aria-label="Go to Contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
