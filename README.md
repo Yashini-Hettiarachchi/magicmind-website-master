@@ -53,12 +53,12 @@ A modern, responsive website for managing and displaying research project docume
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Yashini-Hettiarachchi/NVLD_project_website.git
+git clone https://github.com/Yashini-Hettiarachchi/magicmind-website-master.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd NVLD_project_website
+cd magicmind-website-master
 ```
 
 3. Start a local server:
