@@ -403,6 +403,14 @@ a:hover {
     font-weight: bold;
 }
 
+
+
+.document-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
 /* Gallery Section */
 .gallery-grid {
     display: grid;
